@@ -71,4 +71,4 @@ Let’s decode the frontend — together.
 
 ---
 
-Made with ❤️ by [Amir Mehrizi](https://www.linkedin.com/in/seyed-amir-mehrizi-319b151b6/)
+Made with ❤️ by [Seyed Amir Mehrizi](https://www.linkedin.com/in/seyed-amir-mehrizi-319b151b6/)
