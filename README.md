@@ -1,74 +1,59 @@
-# 3 Observable Mistakes Angular Devs Still Make (And How to Fix Them)
+# AngularObservableMistakes
 
-This repository contains the source code examples from my YouTube video:  
-**“3 Observable Mistakes Angular Devs Still Make (and How to Fix Them)”**
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
 
-📺 **Watch the video here:**  
-[👉 YouTube Video Link](https://www.youtube.com/@FrontDecoder)
+## Development server
 
----
-
-## 🔍 What You’ll Learn
-
-This video and code examples show you how to avoid 3 common RxJS mistakes in Angular:
-
-1. **Forgetting to unsubscribe**  
-   → Use `async` pipe, `takeUntil()`, or `take(1)`
-
-2. **Nested subscriptions**  
-   → Use `switchMap` or `concatMap` for cleaner, testable code
-
-3. **Overusing Subjects**  
-   → Prefer `BehaviorSubject` for shared state or `signals` in Angular 17+
-
----
-
-## 📂 Project Structure
+To start a local development server, run:
 
 ```bash
-📁 src/
-  └── app/
-       ├── mistake1-unsubscribe/
-       ├── mistake2-nested-subscribe/
-       └── mistake3-overusing-subject/
+ng serve
 ```
 
-Each folder contains a simple Angular component demonstrating the problem and the fix.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
----
+## Code scaffolding
 
-<!-- ## 📸 Slides
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-You can find the PowerPoint slides [here](./slides/observable-mistakes-slides.pptx)  
-_or_ view them online via [Google Drive](https://drive.google.com/your-slide-link-here)
+```bash
+ng generate component component-name
+```
 
---- -->
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-## 🙌 About Me
+```bash
+ng generate --help
+```
 
-Welcome to **FrontDecoder** 👨‍💻  
-I'm **Amir** — a Frontend Engineer with **+7 years** of real-world experience in Angular, React, TypeScript, and modern web development.
+## Building
 
-This channel is for developers who want to:
-- Write cleaner, more scalable frontend code  
-- Master frameworks like Angular with confidence  
-- Go beyond tutorials and understand real-world architecture, performance, and patterns  
-- Grow professionally and technically — one video at a time  
+To build the project run:
 
-No fluff, no copy-paste code.  
-Just practical content, modern tools, and honest insights from someone who's been there.
+```bash
+ng build
+```
 
-Subscribe if you're ready to elevate your frontend skills.  
-Let’s decode the frontend — together.
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
----
+## Running unit tests
 
-## 👍 Like this?
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-- Star ⭐ the repo if it helped you  
-- Subscribe to the channel for more frontend tips  
-- Share the video with your Angular friends!
+```bash
+ng test
+```
 
----
+## Running end-to-end tests
 
-Made with ❤️ by [Seyed Amir Mehrizi](https://www.linkedin.com/in/seyed-amir-mehrizi-319b151b6/)
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
